@@ -1,0 +1,90 @@
+
+*{ margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(to right, #358faa 0%, #161c57 100%);
+    margin-block-end: auto;
+    
+}
+.escola{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    font-family: "Noto Sans script=latin rev=3";
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 40px;
+    color: rgb(237, 236, 243);    
+   margin-right: 30px;
+}
+.anima{
+    margin-left: 200px;
+}
+    
+.colegio{font-family: "Noto Sans script=latin rev=3";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 25px;
+    color: rgb(219, 219, 231);
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right; 
+    background-color: rgb(14, 1, 70);
+    font-stretch: normal;
+    line-height: initial;
+    font-size: 28px;
+    border-top: 0.4px solid rgb(211, 206, 207);
+    border-bottom: 0.4px solid rgb(204, 207, 211);
+    color: aliceblue;
+        
+        
+}
+.imagem{
+    display: block;
+    margin: 0 auto;
+}
+.para{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rodape{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(171, 207, 171);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    justify-content: center;
+    }
+
+.item-botao:hover{ 
+    background-color: rgb(201, 152, 17); 
+    border-radius: 20px;
+    margin: 5px;  
+    color: antiquewhite;
+    margin: 0 auto;
+    
+}
+.botao{
+    justify-content: space-around;
+    color: rgb(14, 14, 12);
+    margin: 10px;
+    margin-left: 10px;
+}
